@@ -1,0 +1,27 @@
+.product_item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.product_item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.product_price {
+  border-radius: 30px;
+  padding: 0.15rem 1.5rem;
+  background-color: #3a3a3a;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.product_item p {
+  color: #3a3a3a;
+}
+
+.product_actions {
+  display: flex;
+  justify-content: flex-end;
+}
