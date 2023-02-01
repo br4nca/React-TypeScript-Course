@@ -1,0 +1,23 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.header_list {
+  display: flex;
+  gap: 1rem;
+}
+
+.header_list a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.header_list a:hover,
+.header_list a.active {
+  color: var(--color-primary-800);
+  text-decoration: underline;
+}
