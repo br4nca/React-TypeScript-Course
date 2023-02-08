@@ -1,0 +1,24 @@
+.events_header {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.events_header .list {
+  display: flex;
+  gap: 1rem;
+}
+
+.events_header .list a {
+  background-color: var(--color-gray-500);
+  color: var(--color-gray-900);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.events_header .list a:hover,
+.events_header .list a:active,
+.events_header .list a.active {
+  background-color: var(--color-primary-600);
+}
